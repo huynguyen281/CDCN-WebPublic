@@ -15,7 +15,6 @@ export const ItemNavbar: React.FC<IItemNavbar> = ({ name, navigate, handleClickI
 			<Box
 				color={selectedItem === name ? "#fea774" : "#332c47"}
 				padding="10px"
-				//backgroundColor={selectedItem === name ? "#ffdfaf" : ""}
 				borderRadius={selectedItem === name ? "30px" : ""}
 				_hover={{ color: '#fea774' }}
 				onClick={handleClickItem}
