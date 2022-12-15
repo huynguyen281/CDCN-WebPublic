@@ -18,8 +18,7 @@ export const Contact: React.FC = () => {
           Liên lạc với chúng tôi để có nhiều thông tin bổ ích
         </Heading>
         <Text color={'#9c7d6e'}>
-          Nếu bạn cần sự giúp đỡ hay bất kì câu hỏi nào, chúng tôi luôn sẵn sàng
-          giải đáp thắc mắc
+          Chúng tôi ở đây để giải đáp hết thắc mắc của các bạn.
         </Text>
         <HStack spacing={20} paddingTop="50px">
           <VStack
