@@ -48,6 +48,16 @@ export const OurTeam: React.FC = () => {
       position: 'Mobile Developer',
       image: '/images/tuyen.png',
     },
+    {
+      nameMember: 'Trần Thị Thảo',
+      position: 'FE Developer',
+      image: '/images/thao.jpg',
+    },
+    {
+      nameMember: 'Lê Gia Anh Khoa',
+      position: 'BE Developer',
+      image: '/images/public.png',
+    },
   ]
   const [activeTeamMember, setActiveTeamMember] = useState<IMemberCard>({
     nameMember: '',
@@ -65,7 +75,7 @@ export const OurTeam: React.FC = () => {
     >
       <VStack justifyContent={'flex-start'}>
         <Heading fontSize={'50'} fontWeight="500" color={'#332c47'}>
-          Gặp gỡ những nhà sáng tạo của chúng ta
+          Gặp gỡ đội ngũ của chúng ta
         </Heading>
       </VStack>
       <VStack spacing={0} width="100%">
@@ -94,9 +104,9 @@ export const OurTeam: React.FC = () => {
           grabCursor={true}
           onActiveIndexChange={(index) => {
             const item =
-              index.activeIndex < 7
+              index.activeIndex < 9
                 ? index.activeIndex - 2
-                : index.activeIndex === 7
+                : index.activeIndex === 9
                 ? 0
                 : 1
             setActiveTeamMember(teamMembers[item])

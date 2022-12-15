@@ -90,6 +90,22 @@ export const MainPage: React.FC = () => {
               left="-99"
               border={'3px solid #f0eae4'}
             />
+            <Image
+              src="/images/thao.jpg"
+              borderRadius="full"
+              boxSize="70px"
+              position={'relative'}
+              left="-120"
+              border={'3px solid #f0eae4'}
+            />
+			<Image
+              src="/images/public.png"
+              borderRadius="full"
+              boxSize="70px"
+              position={'relative'}
+              left="-130"
+              border={'3px solid #f0eae4'}
+            />
           </HStack>
         </VStack>
         <Image src="/images/mainpublic1.png" width={'25%'} />
